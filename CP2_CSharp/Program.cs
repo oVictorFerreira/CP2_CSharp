@@ -20,9 +20,8 @@ namespace CP2_CSharp
                 splash.ShowDialog();
             }
 
-            // 2) Abre a tela de Menu (Views/MenuForm.cs, feita por outro integrante)
-            // Enquanto o Menu não existir, pode usar o Form1 para testar.
-            Application.Run(new Form1());
+            // 2) Tela de Menu (navegação para Venda e Relatório)
+            Application.Run(new MenuForm());
         }
     }
 }
